@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
@@ -9,12 +8,19 @@
 body {
     background-image: url(./Images/Miniatura\ para\ youtube\ brigadeiro\ perfeito\ marrom.png);
 
+
 }
 
 .logo {
-    width: 240px;
-    margin: -20px;
-   
+    width: 200px;
+    margin-left: -10px;
+
+}
+
+.insta {
+    width: 90px;
+    margin-left: 440px;
+    margin-bottom: 60px;
 }
 
 
@@ -22,76 +28,102 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    font-size: medium;
-    margin-top: -60px;
+    transition: 1s;
+    margin-bottom: -50px;
 
 }
 
 .botao-brigadeiro {
     width: 200px;
     background: rgb(238, 192, 192);
-    color: black;
+    color: rgb(75, 33, 33);
+    ;
     border-radius: 60px;
     border: none;
-    padding: 10px;
     cursor: pointer;
-    margin: 15px;
+    margin: 12px;
+    margin-left: 100px;
+}
+
+.botao-brigadeiro:hover {
+    transform: translateY(-25px);
+
 }
 
 .botao-tematicos {
     width: 200px;
     background: rgb(238, 192, 192);
-    color: black;
+    color: rgb(75, 33, 33);
+    ;
     border-radius: 60px;
     border: none;
-    padding: 10px;
+    padding: 12px;
     cursor: pointer;
     margin: 15px;
+}
+
+.botao-tematicos:hover {
+    transform: translateY(-25px);
+
 }
 
 .kits {
     width: 200px;
     background: rgb(238, 192, 192);
-    color: black;
+    color: rgb(75, 33, 33);
+    ;
     border-radius: 60px;
     border: none;
-    padding: 10px;
+    padding: 5px;
     cursor: pointer;
     margin: 15px;
+
+
+}
+
+.kits:hover {
+    transform: translateY(-25px);
 
 }
 
 .botao-bolos {
     width: 200px;
     background: rgb(238, 192, 192);
-    color: black;
+    color: rgb(75, 33, 33);
     border-radius: 60px;
     border: none;
-    padding: 10px;
+    padding: 5px;
     cursor: pointer;
     margin: 15px;
 }
 
-
-
-
-.thumbs {
-    width: 300px;
-    margin-left: 900px;
+.botao-bolos:hover {
+    transform: translateY(-25px);
 
 }
 
+
 .botao-pedido {
-    width: 500px;
-    font-size: larger;
-    margin-top: -150px;
-    margin-left: 100px;
+    width: 300px;
+    font-size: 20px;
     background: plum;
+    color: rgb(75, 33, 33);
     border: none;
-    border-radius: 500px;
-    display: flex;
-    justify-content: center;
-    padding: 30px;
+    border-radius: 50px;
     cursor: pointer;
+    padding: 20px;
+    margin-left: 850px;
+    margin-bottom: 20px;
+
+}
+
+#thumbs {
+    width: 500px;
+    margin-top: 100px;
+    margin-bottom: -100px;
+    margin-left: 100px;
+    
+
+
 
 }

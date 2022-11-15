@@ -17,48 +17,45 @@
 <body>
 
     <img src="./Images/Tao_Doce-removebg-preview.png" class="logo">
-
+    <a href="https://www.instagram.com/taodocebydeiapardini/">
+        <img src="./Images/Insta-removebg-preview.png" class="insta">
+    </a>
 
     <div class="buttons">
 
-        <button class="botao-brigadeiro"
-        onclick="trocaImagem('./images/Coloridos.jpg')">
+        <button class="botao-brigadeiro" onclick="trocaImagem()">
             Brigadeiros
         </button>
 
 
-        <button class="botao-tematicos">
+        <button class="botao-tematicos" onclick="trocaImagem1()">
             Temáticos
         </button>
 
-        <button class="kits">
+        <button class="kits" onclick="trocaImagem2()">
             Kits
         </button>
 
-        <button class="botao-bolos">
+        <button class="botao-bolos" onclick="trocaImagem3()">
             Bolos
         </button>
 
     </div>
 
 
-    <img src="./Images/Bolo-removebg-preview.png" class="thumbs">
+    <img src="./Images/Doces1.png" id="thumbs">
 
-    <button class="botao-pedido">
-        Faça seu Pedido
-    </button>
+
+
+
+    <a href="https://api.whatsapp.com/send?phone=5511998606484">
+        <button class="botao-pedido">
+            Faça seu Pedido
+        </button>
+    </a>
+
+    <script src="console.js"> </script>
+
 </body>
-
-<script>
-
-    let image = document.querySelector(".thumbs")
-    img.setAttribute('src', './Images/Coloridos.jpg');
-
-  
-
-
-</script>
-
-
 
 </html>
