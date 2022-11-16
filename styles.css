@@ -122,8 +122,120 @@ body {
     margin-top: 100px;
     margin-bottom: -100px;
     margin-left: 100px;
-    
+}
 
+@media(max-width:1000px) {
+
+
+
+    .insta {
+        width: 60px;
+        margin-left: -15px;
+        margin-right: 0;
+        margin-bottom: -100px;
+
+
+    }
+
+
+    .buttons {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        transition: 1s;
+        margin-top: 150px;
+        margin-bottom: 0;
+
+    }
+
+    .botao-brigadeiro {
+        width: 200px;
+        background: rgb(238, 192, 192);
+        color: rgb(75, 33, 33);
+        border-radius: 60px;
+        border: none;
+        cursor: pointer;
+        padding: 12px;
+        margin: 5px;
+        margin-left: 0;
+    }
+
+    .botao-brigadeiro:hover {
+        transform: translateY(-25px);
+
+    }
+
+    .botao-tematicos {
+        width: 200px;
+        background: rgb(238, 192, 192);
+        color: rgb(75, 33, 33);
+        border-radius: 60px;
+        border: none;
+        padding: 12px;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+    .botao-tematicos:hover {
+        transform: translateY(-25px);
+
+    }
+
+    .kits {
+        width: 200px;
+        background: rgb(238, 192, 192);
+        color: rgb(75, 33, 33);
+        border-radius: 60px;
+        border: none;
+        padding: 5px;
+        cursor: pointer;
+        margin: 5px;
+
+
+    }
+
+    .kits:hover {
+        transform: translateY(-25px);
+
+    }
+
+    .botao-bolos {
+        width: 200px;
+        background: rgb(238, 192, 192);
+        color: rgb(75, 33, 33);
+        border-radius: 60px;
+        border: none;
+        padding: 5px;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+    .botao-bolos:hover {
+        transform: translateY(-25px);
+
+    }
+
+
+    .botao-pedido {
+        width: 300px;
+        font-size: 20px;
+        background: plum;
+        color: rgb(75, 33, 33);
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        padding: 20px;
+        margin-left: 0;
+        margin-top: 200px;
+        margin-bottom: 0;
+
+    }
+
+    #thumbs {
+        width: 400px;
+        margin-top: 50px;
+        margin-left: 0;
+    }
 
 
 }
