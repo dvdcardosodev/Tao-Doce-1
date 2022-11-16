@@ -18,11 +18,21 @@ body {
 }
 
 .insta {
-    width: 90px;
-    margin-left: 440px;
-    margin-bottom: 60px;
+    width: 50px;
+    margin-left: 970px;
+    margin-bottom: 100px;
+    margin-top: 0;
 }
 
+p {
+    font-size: 10px;
+    color: rgb(75, 33, 33);
+    width: 20px;
+    margin-left: 1115px;
+    margin-top: -100px;
+    margin-bottom: 50px;
+
+}
 
 .buttons {
     width: 100%;
@@ -37,7 +47,6 @@ body {
     width: 200px;
     background: rgb(238, 192, 192);
     color: rgb(75, 33, 33);
-    ;
     border-radius: 60px;
     border: none;
     cursor: pointer;
@@ -54,7 +63,6 @@ body {
     width: 200px;
     background: rgb(238, 192, 192);
     color: rgb(75, 33, 33);
-    ;
     border-radius: 60px;
     border: none;
     padding: 12px;
@@ -71,7 +79,6 @@ body {
     width: 200px;
     background: rgb(238, 192, 192);
     color: rgb(75, 33, 33);
-    ;
     border-radius: 60px;
     border: none;
     padding: 5px;
@@ -104,16 +111,16 @@ body {
 
 
 .botao-pedido {
-    width: 300px;
-    font-size: 20px;
+    width: 230px;
+    font-size: 15px;
     background: plum;
     color: rgb(75, 33, 33);
     border: none;
-    border-radius: 50px;
+    border-radius: 30px;
     cursor: pointer;
-    padding: 20px;
-    margin-left: 850px;
-    margin-bottom: 20px;
+    padding: 10px;
+    margin-left: 560px;
+    margin-bottom: 50px;
 
 }
 
@@ -130,9 +137,35 @@ body {
 
     .insta {
         width: 60px;
-        margin-left: -15px;
-        margin-right: 0;
-        margin-bottom: -100px;
+        margin-left: 305px;
+        margin-bottom: -10px;
+
+    }
+
+    p {
+        font-size: 10px;
+        color: rgb(75, 33, 33);
+        width: 20px;
+        margin-left: 270px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    
+    }
+
+    .botao-pedido {
+        width: 150px;
+        font-size: 10px;
+        background: plum;
+        color: rgb(75, 33, 33);
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        padding: 20px;
+        margin: 30px;
+        margin-left: 130px;
+
+
+
 
 
     }
@@ -144,7 +177,7 @@ body {
         justify-content: center;
         transition: 1s;
         margin-left: 3px;
-        margin-top: 150px;
+        margin-top: 0;
         margin-bottom: 0;
 
     }
@@ -161,10 +194,7 @@ body {
         margin-left: 0;
     }
 
-    .botao-brigadeiro:hover {
-        transform: translateY(-25px);
 
-    }
 
     .botao-tematicos {
         width: 200px;
@@ -177,10 +207,9 @@ body {
         margin: 5px;
     }
 
-    .botao-tematicos:hover {
-        transform: translateY(-25px);
 
-    }
+
+
 
     .kits {
         width: 200px;
@@ -195,10 +224,7 @@ body {
 
     }
 
-    .kits:hover {
-        transform: translateY(-25px);
 
-    }
 
     .botao-bolos {
         width: 200px;
@@ -211,26 +237,7 @@ body {
         margin: 5px;
     }
 
-    .botao-bolos:hover {
-        transform: translateY(-25px);
 
-    }
-
-
-    .botao-pedido {
-        width: 300px;
-        font-size: 20px;
-        background: plum;
-        color: rgb(75, 33, 33);
-        border: none;
-        border-radius: 50px;
-        cursor: pointer;
-        padding: 20px;
-        margin-left: 0;
-        margin-top: 200px;
-        margin-bottom: 0;
-
-    }
 
     #thumbs {
         width: 400px;
